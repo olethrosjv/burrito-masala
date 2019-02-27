@@ -1,0 +1,215 @@
+
+body {
+  padding-top: 56px; /* This will give some breathing room at the top of the page. Adjust the px amount to increase or decrease*/
+  background-color: #fefef9;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  color: #6c645f;
+}
+/* style for header*/
+.nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-left: 1rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fdfef7;
+  text-align: center;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.center-text {
+  text-align: center;
+}
+
+nav, h1, h2, h3, h4 {
+  font-family: 'Roboto Slab', serif;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+/*main {}*/
+
+main section {
+  padding-left: 1.25em;
+  margin-left: 1.5em;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+  line-height: 1.75em;
+}
+
+#instruction-box {
+  background: #fdf6df; /* used to draw attention to the instructions for ordering */
+  text-align: center;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 1em;
+  list-style: none;
+}
+
+.item-list li {
+  line-height: 1.5em;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.container {
+  padding-bottom: 3rem !important;
+  padding-top: 3rem !important;
+}
+
+#map {
+  max-width: 100%;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 25px;
+  margin-bottom: 1em;
+  font-size: 35px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Pinterest */
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+/* Yelp */
+.fa-yelp {
+  background: #cb2027;
+  color: white;
+}
+
+footer {
+  color: #fff;
+}
+
+/* Tablet CSS Code and Up */
+
+@media only screen and (min-width: 481px) {
+
+  #menu-row {
+    display: flex;
+  }
+  #menu-col-1 {
+    padding-right: 1.5em; 
+  }
+  #menu-col-2 {
+    padding-right: 2em;
+    padding-left: 1.5em;
+  }
+  #menu-col-3 {
+    padding-left: 2.75em;
+  }
+  .fa {
+    padding: 35px;
+    margin-bottom: 1em;
+    font-size: 60px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+
+}
